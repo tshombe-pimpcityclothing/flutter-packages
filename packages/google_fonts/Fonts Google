@@ -1,0 +1,14 @@
+packages/google_fonts
+google_fonts: ^6.2.1
+// Kalnia Glaze
+// <weight>: Use a value from 100 to 700
+
+TextStyle(
+  fontFamily: 'Kalnia Glaze',
+  fontSize: 18,
+  fontVariations: [
+    FontVariation('ital', 0),
+    FontVariation('wdth', 100),
+    FontVariation('wght', <weight>)
+  ],
+),
